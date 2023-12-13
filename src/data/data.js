@@ -20,7 +20,7 @@ export const data = [
       },
       {
             id: 3,
-            name: 'Netflix Clone',
+            name: 'Budgeting App (WIP)',
             image: budgeting_bg,
             github: 'https://github.com/ggarcia625/expensiator/tree/main/expensiator',
             live: 'https://github.com/ggarcia625/expensiator/tree/main/expensiator'

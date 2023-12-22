@@ -122,7 +122,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-      <div className="hidden lg:flex fixed flex-col top-[7%] left-3">
+      <div className="hidden lg:flex fixed flex-col top-[70px] left-3">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6f7ed4]">
             <a

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { FaLongArrowAltDown } from "react-icons/fa";
 import Timeline from "../components/timeline";
 
 const About = () => {

@@ -71,7 +71,7 @@ export default function Timeline() {
           <div
             className={`relative ${
               (i + 1) % 2 !== 0 ? "right" : "left"
-            }-1/4 flex items-center w-[55%]`}
+            }-1/4 flex items-center w-[50%]`}
           >
             {selectedItemIndex === i && (
               <>

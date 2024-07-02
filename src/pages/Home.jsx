@@ -11,16 +11,14 @@ const Home = () => {
           Greg Garcia
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          Full-Stack web developer.
+          Full-Stack Web Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I am a dynamic Full-Stack Web Developer committed to crafting
-          applications that captivate and delight users. With a robust
-          background spanning four years in Front-End development and over a
-          year as a seasoned Full-Stack developer, I bring a wealth of expertise
-          to every project I undertake. My passion for creating seamless,
-          user-centric experiences drives my commitment to excellence in the
-          ever-evolving world of web development.
+          I am a dynamic full-Stack web developer committed to crafting
+          applications that captivate and delight users. I over four years of
+          experience building internal business and external customer facing
+          apps. Leading development from streaming content placement to nuclear
+          compliance document builders.
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>

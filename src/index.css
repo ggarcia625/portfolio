@@ -27,3 +27,57 @@
       hsla(242, 74%, 61%, 0.8)   
   )!important;
 }
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.timeline-icon img {
+  max-width: 100%;
+}
+
+.timeline-content {
+  max-width: 300px;
+}
+
+.date {
+  font-size: 14px;
+  color: #999;
+}
+
+/* Tooltip Styling */
+.tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 10;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.timeline-item:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}

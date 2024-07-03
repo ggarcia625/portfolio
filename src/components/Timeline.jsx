@@ -59,19 +59,18 @@ export default function Timeline() {
           <img
             onClick={() => handleItemClick(i)}
             src={event.img}
-            className="shadow-md hover:scale-125 duration-500"
-            style={{ width: "60px", height: "60px" }}
+            className="shadow-md hover:scale-125 duration-500 h-10 w-10"
           />
           {i + 1 !== timelineItems.length && (
             <span
               style={selectedItemIndex === i ? { display: "none" } : null}
-              className="border-l-2 h-12 my-[5px] mx-4 border-gray-300"
+              className="border-l-2 h-8 my-[5px] mx-4 border-gray-300"
             ></span>
           )}
           <div
             className={`relative ${
-              (i + 1) % 2 !== 0 ? "right" : "left"
-            }-1/4 flex items-center w-[50%]`}
+              (i + 1) % 2 !== 0 ? "right-1/4" : "left-1/4"
+            } flex items-center max-w-[1000px] w-[55%]`}
           >
             {selectedItemIndex === i && (
               <>
@@ -81,7 +80,7 @@ export default function Timeline() {
                     <span className="border-t-2 w-20 my-[5px] mx-4 grow-0 border-gray-300"></span>
                   </div>
                 )}
-                <p className="border rounded-md p-2 border-gray-300">
+                <p className="border rounded-md p-2 text-sm border-gray-300">
                   {event.desc}
                 </p>
 

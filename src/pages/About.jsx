@@ -4,7 +4,7 @@ import Timeline from "../components/timeline";
 const About = () => {
 
   return (
-    <div name="about" className="w-full h-screen bg-[#151729] text-gray-300">
+    <div name="about" className="w-full h-screen p-8 bg-[#151729] text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] mx-auto flex flex-col justify-center p-4 w-full">
           <div className="text-left pb-8 pl-4">

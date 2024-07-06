@@ -14,11 +14,11 @@ const Home = () => {
           Full-Stack Web Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I am a dynamic full-Stack web developer committed to crafting
-          applications that captivate and delight users. I over four years of
-          experience building internal business and external customer facing
-          apps. Leading development from streaming content placement to nuclear
-          compliance document builders.
+          I am a highly skilled Full-Stack Web Developer with 4.5 years of
+          experience in designing and developing innovative web applications.
+          Proven track record in leading projects, mentoring junior developers,
+          and optimizing user experiences. Adept at working with MERN stack,
+          React, and modern CI/CD practices.
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>

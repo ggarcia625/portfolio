@@ -12,12 +12,12 @@ export default function Timeline() {
   const [selectedItemIndex, setSelectedItemIndex] = useState(null);
   const timelineItems = [
     {
-      desc: "I competed in cross country and track & field from middle school through college, culminating in qualifying for Nationals in Track & Field.",
+      desc: "I competed in cross country and track & field from middle school through college, ultimately qualifying for Nationals in Track & Field.",
       img: runner,
       title: "Collegiate Runner",
     },
     {
-      desc: "At Southern Oregon University, I studied chemistry and got my first exposure to coding by working out quantum mechanical kinetic averages in Python.",
+      desc: "While studying chemistry at Southern Oregon University, I was introduced to coding through calculating quantum mechanical kinetic averages in Python.",
       img: chemistry,
       title: "B.S. Chemistry",
     },
@@ -27,12 +27,12 @@ export default function Timeline() {
       title: "LANL",
     },
     {
-      desc: "During my time at Los Alamos, I realized chemistry wasn't for me as a career, so I decided to attend a bootcamp.",
+      desc: "During my time at Los Alamos, I realized chemistry wasn't for me as a career, so I decided to attend a frontend focused bootcamp.",
       img: boot,
       title: "Bootcamp",
     },
     {
-      desc: "I got a frontend developer role at Lam Research, building out intern dashboards and projected completion dates for manufacturing.",
+      desc: "I got a frontend developer role at Lam Research, building out internal dashboards and projected completion dates for manufacturing.",
       img: computer,
       title: "Lam Research",
     },

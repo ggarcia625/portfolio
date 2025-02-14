@@ -44,7 +44,7 @@ export default function Timeline() {
     {
       desc: "I was laid off from Premiere and found myself back at Los Alamos, building full-stack nuclear compliance apps using the MERN tech stack.",
       img: compliance,
-      title: "LANL Full-Stack",
+      title: "LANL Full-Stack$$$$$",
     },
   ];
 

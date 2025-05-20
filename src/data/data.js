@@ -1,6 +1,6 @@
 import netflix_bg from "../assets/netflix_bg.jpg";
-import shopping_bg from "../assets/shopping_bg.jpg";
 import budgeting_bg from "../assets/budgeting_bg.jpg";
+import periodic_table_bg from "../assets/periodic_table_bg.jpg";
 
 export const data = [
   {
@@ -12,10 +12,10 @@ export const data = [
   },
   {
     id: 2,
-    name: "E-Commerce (WIP)",
-    image: shopping_bg,
+    name: "Chemistry Seminar",
+    image: periodic_table_bg,
     github: "https://github.com/ggarcia625/shopping-app/tree/master",
-    live: "https://github.com/ggarcia625/shopping-app/tree/master",
+    live: "https://ggarcia625.github.io/chemistry-seminar/",
   },
   {
     id: 3,

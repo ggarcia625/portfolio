@@ -14,7 +14,7 @@ const Home = () => {
           Full-Stack Web Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I am a highly skilled Full-Stack Web Developer with 4.5 years of
+          I am a highly skilled Full-Stack Web Developer with over 5 years of
           experience in designing and developing innovative web applications.
           Proven track record in leading projects, mentoring junior developers,
           and optimizing user experiences. Adept at working with MERN stack,

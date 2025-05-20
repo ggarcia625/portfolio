@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Timeline from "../components/timeline";
+import Timeline from "../components/Timeline";
 
 const About = () => {
 

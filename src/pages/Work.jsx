@@ -2,7 +2,7 @@ import React from "react";
 import { data } from '../data/data'
 
 const Work = () => {
-      const projects = data;
+  const projects = data;
   return (
     <div name="work" className="bg-[#151729] text-gray-300 h-screen w-full">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">

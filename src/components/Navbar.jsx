@@ -8,6 +8,7 @@ import { BsPersonVcard } from "react-icons/bs";
 import { GrCertificate } from "react-icons/gr";
 import logo from "../assets/logo.png";
 import resume from "../assets/Gregory.Garcia.Resume.pdf";
+import spotAward from '../assets/spot_award.pdf';
 import scrumMaster from '../assets/scrumMaster.pdf';
 const Navbar = () => {
   const [navMobile, setNavMobile] = useState(false);
@@ -134,6 +135,16 @@ const Navbar = () => {
               rel="noopener noreferrer"
             >
               Resume <BsPersonVcard size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#838ab4]">
+            <a
+              href={spotAward}
+              className="flex justify-between items-center w-full text-gray-300"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>Spot Award</span> <GrCertificate size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#838ab4]">

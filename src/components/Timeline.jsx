@@ -60,6 +60,7 @@ export default function Timeline() {
             onClick={() => handleItemClick(i)}
             src={event.img}
             className="shadow-md hover:scale-125 duration-500 h-10 w-10"
+            style={{ cursor: 'pointer' }}
           />
           {i + 1 !== timelineItems.length && (
             <span

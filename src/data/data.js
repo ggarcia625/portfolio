@@ -14,7 +14,7 @@ export const data = [
     id: 2,
     name: "Chemistry Seminar",
     image: periodic_table_bg,
-    github: "https://github.com/ggarcia625/shopping-app/tree/master",
+    github: "https://github.com/ggarcia625/chemistry-seminar",
     live: "https://ggarcia625.github.io/chemistry-seminar/",
   },
   {
